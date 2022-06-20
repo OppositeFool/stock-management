@@ -1,0 +1,38 @@
+@import "./../global_variables/variables";
+
+button {
+    margin: 10px;
+    padding: 10px 30px 10px 30px;
+    background-color: $green;
+    border: 0;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+}
+button.notActive {
+    background-color: $green;
+}
+button.notActive:hover {
+    background-color: $orange;
+    cursor: pointer;
+}
+button.active {
+    background-color: $orange;
+}
+button.active:hover {
+    background-color: $green;
+    cursor: pointer;
+}
+.items {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    .search {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        input {
+            padding: 10px;
+        }
+    }
+}

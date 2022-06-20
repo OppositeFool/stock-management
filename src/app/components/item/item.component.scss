@@ -1,0 +1,32 @@
+@import "./../global_variables/variables";
+
+.item {
+    padding: 0 5px 0 5px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid $dark_blue;
+    .firstRow {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        .itemPrice {
+            margin-left: auto;
+        }
+        .itemName {
+            margin-right: 20px;
+            border: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .itemMetaData{
+            display: flex;
+            gap: 30px;
+
+        }
+    }
+    p {
+        text-transform: capitalize;
+    }
+    .itemUnit {
+        text-transform: lowercase;
+    }
+}

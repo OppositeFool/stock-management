@@ -1,0 +1,9 @@
+<form (ngSubmit)="onSubmit()">
+    <label for="name">Name: </label>
+    <input type="text" name="name" autocomplete="off" [(ngModel)]="name">
+    <label for="price">Price: </label>
+    <input type="number" name="price" min="0" [(ngModel)]="price">
+    <label for="unit">Unit: </label>
+    <input type="text" name="unit" [(ngModel)]="unit">
+    <input type="submit" value="ADD">
+</form>

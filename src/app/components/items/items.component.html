@@ -1,0 +1,11 @@
+<div class="items">
+    <button (click)="toggleAddOn()" [ngClass]="isAddOn ? 'active' : 'notActive'">Add</button>
+   <div class="search">
+    <label for="itemSearch">Search: </label>
+    <input type="text" (input)="getItemsFiltered($event)" name="itemSearch" id="itemSearch" placeholder="Start typing item name...">
+</div>
+</div>
+<div class="itemList">
+  <app-add-item *ngIf="isAddOn" (onAddItem)="addItem($event)"></app-add-item>
+  <app-item *ngFor="let item of items" [itemData]="item"></app-item>
+</div>

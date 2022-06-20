@@ -1,0 +1,36 @@
+@import "./../global_variables/variables";
+
+p, label, li {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+.logo {
+    font-size: 32px;
+}
+input {
+    padding: 10px;
+}
+.header {
+    padding: 10px;
+    background-color: $blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    li {
+        text-decoration: none;
+        display: inline;
+        padding: 15px;
+        margin: 5px;
+        border: 1px solid transparent;
+        border-radius: 20px;
+        transition: all 0.1s linear;
+    }
+    li:hover {
+        background-color: $orange;
+        border: 1px solid black;
+        cursor: pointer;
+    }
+}
