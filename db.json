@@ -39,6 +39,12 @@
       "price": 56900,
       "unit": "db",
       "id": 6
+    },
+    {
+      "name": "itemTeszt",
+      "price": 4990,
+      "unit": "db",
+      "id": 7
     }
   ]
 }

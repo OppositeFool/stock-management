@@ -1,8 +1,9 @@
 form {
     display: flex;
     padding: 10px;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
+    gap: 10px;
     input {
         padding: 5px;
     }
