@@ -1,6 +1,6 @@
 <div class="item">
     <div class="firstRow">
-        <input [value]="itemData.name" type="text" class="itemName" />
+        <input [value]="itemData.name" (focusout)="saveItemName($event, itemData)" type="text" class="itemName" />
         <div class="itemMetaData">
             <p>meta1</p>
             <p>meta2</p>

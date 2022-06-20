@@ -1,50 +1,22 @@
 {
   "items": [
     {
-      "id": 0,
-      "name": "Teszt0",
-      "price": 14990,
-      "unit": "db"
-    },
-    {
-      "id": 1,
-      "name": "Asd",
-      "price": 24990,
-      "unit": "db"
-    },
-    {
-      "name": "bab",
+      "name": "Teszt1",
       "price": 4990,
+      "unit": "db",
+      "id": 1
+    },
+    {
+      "name": "TesztChanged",
+      "price": 3990,
       "unit": "db",
       "id": 2
     },
     {
-      "name": "teszt",
-      "price": 4990,
-      "unit": "l",
+      "name": "UjabbbTesztChanged",
+      "price": 14990,
+      "unit": "db",
       "id": 3
-    },
-    {
-      "name": "Some kind of item",
-      "id": 4
-    },
-    {
-      "name": "Another kind of item",
-      "price": 4990,
-      "unit": "db",
-      "id": 5
-    },
-    {
-      "name": "another ittem",
-      "price": 56900,
-      "unit": "db",
-      "id": 6
-    },
-    {
-      "name": "itemTeszt",
-      "price": 4990,
-      "unit": "db",
-      "id": 7
     }
   ]
 }

@@ -22,6 +22,10 @@ export class ItemsService {
   }
 
   addItem(item: IItem):Observable<IItem> {
-    return this.http.post<IItem>(this.url, item, httpoptions)
+    return this.http.post<IItem>(this.url, item, httpoptions);
+  }
+  changeItem(item: IItem) :Observable<IItem>
+  {
+    return this.http.put<IItem>(this.url + item.id, item, httpoptions);
   }
 }
